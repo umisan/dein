@@ -1,3 +1,4 @@
+#.vim/bundles/dein配下に置く
 # ステータスバー
 #[[plugins]]
 #repo = 'vim-airline/vim-airline'
@@ -54,12 +55,10 @@ repo = 'fatih/vim-go'
 hook_add = '''
   let g:go_fmt_command = "goimports"
   let g:go_gocode_propose_source = 1
-  let g:go_gocode_propose_builtins = 1
 '''
 
 [[plugins]] # go補完
 repo = 'mdempsky/gocode'
-rtp = 'nvim/'
 
 # 定義ジャンプ
 [[plugins]] 
